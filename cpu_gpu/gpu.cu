@@ -29,6 +29,8 @@ void init_array(int *data){
 int main(int argc, char *argv[]){
   int *da,*db,*dc;
 
+  printf("Calculation on GPU.\n");
+
   cudaMalloc(&da,N*N*sizeof(int));
   cudaMalloc(&db,N*N*sizeof(int));
   cudaMalloc(&dc,N*N*sizeof(int));

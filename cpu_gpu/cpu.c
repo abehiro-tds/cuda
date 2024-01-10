@@ -18,6 +18,8 @@ void init_array(int *data){
 
    
 int main(int argc, char *arg[]){
+
+  printf("Calculation on CPU.\n");
   init_array((int*)a);
   init_array((int*)b);
   init_array((int*)c);
